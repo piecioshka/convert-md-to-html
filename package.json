@@ -1,0 +1,27 @@
+{
+    "name": "convert-markdown-to-html",
+    "version": "1.0.0",
+    "description": "Convert Markdown file to HTML",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "https://piecioshka.pl/"
+    },
+    "scripts": {
+        "test": "jest --rootDir test/specs/"
+    },
+    "keywords": [
+        "markdown",
+        "html"
+    ],
+    "dependencies": {
+        "showdown": "^1.9.0"
+    },
+    "devDependencies": {
+        "jest": "^24.8.0"
+    },
+    "bin": {
+        "convert-markdown-to-html": "bin/cli.js"
+    }
+}
