@@ -4,4 +4,4 @@
 
 ## Credits
 
-Thanks to authors of [showdown](http://showdownjs.com/)
+Thanks to the authors of [showdown](https://github.com/showdownjs/showdown)
