@@ -33,7 +33,7 @@ Output:
 ## Installation
 
 ```bash
-npm install -g convert-md-to-pdf
+npm install -g convert-md-to-html
 ```
 
 ## CLI

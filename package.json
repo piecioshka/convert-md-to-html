@@ -1,27 +1,44 @@
 {
-    "name": "convert-md-to-html",
-    "version": "1.0.0",
-    "description": "Convert Markdown file to HTML",
-    "license": "MIT",
-    "author": {
-        "name": "Piotr Kowalski",
-        "email": "piecioshka@gmail.com",
-        "url": "https://piecioshka.pl/"
-    },
-    "scripts": {
-        "test": "jest"
-    },
-    "keywords": [
-        "markdown",
-        "html"
-    ],
-    "dependencies": {
-        "showdown": "^2.1.0"
-    },
-    "devDependencies": {
-        "jest": "^29.7.0"
-    },
-    "bin": {
-        "convert-md-to-html": "bin/cli.js"
-    }
+  "name": "convert-md-to-html",
+  "version": "0.0.0",
+  "description": "Convert Markdown file to HTML",
+  "license": "MIT",
+  "author": {
+    "name": "Piotr Kowalski",
+    "email": "piecioshka@gmail.com",
+    "url": "https://piecioshka.pl/"
+  },
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "showdown": "^2.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:piecioshka/convert-md-to-html.git"
+  },
+  "engines": {
+    "node": ">=14.20.1"
+  },
+  "files": [
+    "bin",
+    "src",
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "cli",
+    "builder",
+    "converter",
+    "markdown",
+    "html"
+  ],
+  "main": "./index.js",
+  "bin": "./bin/cli.js"
 }
