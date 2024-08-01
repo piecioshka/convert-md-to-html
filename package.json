@@ -9,17 +9,17 @@
         "url": "https://piecioshka.pl/"
     },
     "scripts": {
-        "test": "jest --rootDir test/specs/"
+        "test": "jest"
     },
     "keywords": [
         "markdown",
         "html"
     ],
     "dependencies": {
-        "showdown": "^1.9.0"
+        "showdown": "^2.1.0"
     },
     "devDependencies": {
-        "jest": "^24.8.0"
+        "jest": "^29.7.0"
     },
     "bin": {
         "convert-markdown-to-html": "bin/cli.js"
