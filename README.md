@@ -1,6 +1,13 @@
-# convert-markdown-to-pdf
+# convert-markdown-to-html
 
-:hammer: Convert Markdown file to HTML
+:hammer: Convert Markdown file to HTML file (and saves this file next to)
+
+## Usage
+
+```bash
+convert-markdown-to-html README.md
+# Created: README-2024-08-01-15-30-47.html
+```
 
 ## Credits
 

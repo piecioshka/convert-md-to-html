@@ -3,24 +3,23 @@
 'use strict';
 
 const fs = require('fs');
-const showdown = require('showdown');
+const path = require('path');
+const { buildHTML } = require('../src/html-helper');
+const { buildOutputFilename } = require('../src/file-helper');
 
 const filename = process.argv[2];
-const options = {
-    noHeaderId: true,
-    simplifiedAutoLink: true,
-    excludeTrailingPunctuationFromURLs: true,
-    strikethrough: true,
-    tables: true,
-    ghCodeBlocks: true,
-    tasklists: true,
-    simpleLineBreaks: true,
-    ghMentions: true,
-    emoji: true
-};
-const converter = new showdown.Converter(options);
+
 const buffer = fs.readFileSync(filename, 'utf-8');
 const text = buffer.toString();
-const html = converter.makeHtml(text);
 
-console.log(html);
+const html = buildHTML(text);
+
+const destination = path.join(path.dirname(filename));
+const outputFilename = buildOutputFilename(filename);
+
+try {
+  fs.writeFileSync(path.join(destination, outputFilename), html);
+  console.log('Created:', outputFilename);
+} catch (error) {
+  console.error('Error:', error);
+}
