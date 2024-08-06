@@ -4,7 +4,7 @@
 [![npm version](https://badge.fury.io/js/convert-md-to-html.svg)](https://badge.fury.io/js/convert-md-to-html)
 [![downloads count](https://img.shields.io/npm/dt/convert-md-to-html.svg)](https://www.npmjs.com/package/convert-md-to-html)
 
-:hammer: Convert Markdown file to HTML file (and saves this file next to)
+:hammer: Convert Markdown file to HTML file
 
 > Give a ⭐️ if this project helped you!
 
@@ -47,6 +47,10 @@ convert-md-to-html README.md
 
 Contributions, issues and feature requests are welcome!<br />
 Feel free to check [issues page](/issues/).
+
+## Related
+
+- [convert-md-to-pdf](https://github.com/piecioshka/convert-md-to-pdf) - :hammer: Convert Markdown file to PDF file
 
 ## Credits
 
