@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:piecioshka/convert-md-to-html.git"
+    "url": "git+ssh://git@github.com/piecioshka/convert-md-to-html.git"
   },
   "engines": {
     "node": ">=14.20.1"
@@ -40,5 +40,7 @@
     "html"
   ],
   "main": "./index.js",
-  "bin": "./bin/cli.js"
+  "bin": {
+    "convert-md-to-html": "bin/cli.js"
+  }
 }
