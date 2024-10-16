@@ -4,6 +4,7 @@
 [![npm version](https://badge.fury.io/js/convert-md-to-html.svg)](https://badge.fury.io/js/convert-md-to-html)
 [![downloads count](https://img.shields.io/npm/dt/convert-md-to-html.svg)](https://www.npmjs.com/package/convert-md-to-html)
 [![license](https://img.shields.io/npm/l/convert-md-to-html.svg)](https://piecioshka.mit-license.org)
+[![github-ci](https://github.com/piecioshka/convert-md-to-html/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/convert-md-to-html/actions/workflows/testing.yml)
 
 :hammer: Convert Markdown file to HTML file
 
