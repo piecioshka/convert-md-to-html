@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/npm/l/convert-md-to-html.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/convert-md-to-html/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/convert-md-to-html/actions/workflows/testing.yml)
 
-:hammer: Convert Markdown file to HTML file
+🔨 Convert Markdown file to HTML file
 
 > Give a ⭐️ if this project helped you!
 
@@ -52,7 +52,7 @@ Feel free to check [issues page](/issues/).
 
 ## Related
 
-- [convert-md-to-pdf](https://github.com/piecioshka/convert-md-to-pdf) - :hammer: Convert Markdown file to PDF file
+- [convert-md-to-pdf](https://github.com/piecioshka/convert-md-to-pdf) - 🔨 Convert Markdown file to PDF file
 
 ## Credits
 
