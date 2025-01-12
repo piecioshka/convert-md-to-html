@@ -61,4 +61,4 @@ Thanks to the authors of [showdown](https://github.com/showdownjs/showdown)
 
 ## License
 
-[The MIT License](https://piecioshka.mit-license.org) @ 2019-2025
+[The MIT License](https://piecioshka.mit-license.org) @ 2019
