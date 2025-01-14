@@ -1,5 +1,6 @@
 # convert-md-to-html
 
+[![cli-available](https://badgen.net/static/cli/available/?icon=terminal)](https://runkit.com/npm/convert-md-to-html)
 [![node version](https://img.shields.io/node/v/convert-md-to-html.svg)](https://www.npmjs.com/package/convert-md-to-html)
 [![npm version](https://badge.fury.io/js/convert-md-to-html.svg)](https://badge.fury.io/js/convert-md-to-html)
 [![downloads count](https://img.shields.io/npm/dt/convert-md-to-html.svg)](https://www.npmjs.com/package/convert-md-to-html)
@@ -33,13 +34,13 @@ Output:
 </ul>
 ```
 
-## Installation
+## CLI
+
+Installation:
 
 ```bash
 npm install -g convert-md-to-html
 ```
-
-## CLI
 
 ```bash
 convert-md-to-html README.md
