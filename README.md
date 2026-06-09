@@ -10,6 +10,8 @@
 
 🔨 Convert Markdown file to HTML file
 
+![](demo/convert-md-to-html.gif)
+
 > Give a ⭐️ if this project helped you!
 
 ## Usage
