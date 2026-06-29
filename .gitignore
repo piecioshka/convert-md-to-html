@@ -2,8 +2,11 @@ node_modules/
 npm-debug.log
 
 coverage/
+.nyc_output/
+
+dist/
+types/
 
 tmp/
-dist/
 
-*.html
+!.vscode/
