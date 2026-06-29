@@ -9,4 +9,6 @@ types/
 
 tmp/
 
+*.html
+
 !.vscode/
