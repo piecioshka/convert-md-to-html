@@ -1,7 +1,7 @@
 {
   "name": "convert-md-to-html",
   "description": "🔨 Convert Markdown file to HTML",
-  "version": "1.0.15",
+  "version": "1.1.0",
   "license": "MIT",
   "author": {
     "name": "Piotr Kowalski",
@@ -13,7 +13,8 @@
     "prebuild": "rm -rf dist/ types/",
     "build": "tsc",
     "test": "vitest run",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "showdown": "^2.1.0"
