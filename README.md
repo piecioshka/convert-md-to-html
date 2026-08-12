@@ -1,7 +1,5 @@
 # convert-md-to-html
 
-[![TypeScript](https://img.shields.io/badge/built%20with-TypeScript-3178c6.svg)](https://www.typescriptlang.org/)
-
 [![cli-available](https://badgen.net/static/cli/available/?icon=terminal)](#cli)
 [![node version](https://img.shields.io/node/v/convert-md-to-html.svg)](https://www.npmjs.com/package/convert-md-to-html)
 [![npm version](https://badge.fury.io/js/convert-md-to-html.svg)](https://badge.fury.io/js/convert-md-to-html)
@@ -9,6 +7,7 @@
 [![size](https://packagephobia.com/badge?p=convert-md-to-html)](https://packagephobia.com/result?p=convert-md-to-html)
 [![license](https://img.shields.io/npm/l/convert-md-to-html.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/convert-md-to-html/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/convert-md-to-html/actions/workflows/testing.yml)
+[![typescript](https://img.shields.io/badge/built%20with-TypeScript-3178c6.svg)](https://www.typescriptlang.org/)
 
 🔨 Convert Markdown file to HTML file
 
